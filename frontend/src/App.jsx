@@ -6,7 +6,7 @@ import io from "socket.io-client";
 import { useEffect, useState } from 'react';
 import {toast, ToastContainer} from "react-toastify";
 
-const server = "http://localhost:5000";
+const server = "https://64ea0479f3c7703c092dc88c--incredible-sundae-50b18a.netlify.app/";
 const connectionOptions = {
   "force new connection": true,
   reconnectionAttempts: "Infinity",
